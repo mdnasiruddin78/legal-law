@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>legal-law</title>
+    <!-- google-font-cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!-- font-awosome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>    
+     <!-- tailwind-config -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                backgroundImage: {
+                  law: "url('./images/banner.png')",
+                },
+              colors: {
+                clifford: '#da373d',
+                logo1: 'rgb(65, 64, 64)',
+                button: 'rgb(182, 140, 90)',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .eb-font{
+            font-family: "EB Garamond", serif;
+        }
+      </style>
+</head>
+<body class="eb-font">
+    <header>
+      <section>
+          <nav class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+              <div class="navbar-start">
+                <a class="btn btn-ghost text-xl">
+                  <img src="images/logo2.png" alt="">
+                </a>
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[20px] text-gray-500">
+                  <li><a>home</a></li>
+                  <li><a>service</a></li>
+                  <li><a>contract</a></li>
+                  <li><a>coses</a></li>
+                  <li><a>blog</a></li>
+                  <li><a>contract us</a></li>
+                </ul>
+              </div>
+              <div class="navbar-end">
+                <button class="btn text-white bg-button hidden lg:flex">Free Consultation</button>
+                
+              </div>
+            </div>
+          </nav>
+          <div class="md:container mx-auto bg-law bg-no-repeat p-40">
+              <h1 class="text-white text-5xl font-bold text-center">We Provide Effective<br> Legal Solutions</h1>
+              <br>
+              <p class="text-white text-center">There are many variations of passages of Lorem Ipsum available, but the majority<br> have suffered alteration in some form, by injected humour.</p>
+              <br>
+              <div class="text-center space-x-4">
+                <input type="text" placeholder="Search your services" class="input w-full max-w-xs " />
+              <button class="btn text-2xl bg-button border-none text-white">Search</button>
+              </div>
+          </div>
+      </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
